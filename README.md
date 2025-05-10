@@ -13,3 +13,23 @@ To run the bsuir-assistant you need:
 * An [OpenRouter](https://openrouter.ai/) _token_ for your model
 
 * A set up Docker compose, working example of which is provided in this repository
+
+## Running
+
+You need Docker to run the assistant. After setting up is complete, you can run the assistant by writing in terminal in the root folder:
+
+```bash
+docker compose up
+``` 
+
+## System Requirements
+
+* Fast internet connection
+
+* Docker-compose
+
+* [OpenRouter](https://openrouter.ai/) account
+
+* At least 7GB free storage space
+
+* Natural intelligence
