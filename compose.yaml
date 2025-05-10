@@ -1,0 +1,24 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"  # HTTP API
+      - "6334:6334"  # gRPC API
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT_ALLOW_CORS=true
+    restart: unless-stopped
+  answer-pipeline:
+    image: ghcr.io/semantic-hallucinations/answer_pipeline:latest
+    ports:
+      - "8080:8000"
+    env_file:
+      - .env
+  tele-bot:
+    image: ghcr.io/semantic-hallucinations/bsuir-helper-bot:latest
+    volumes:
+      - ./logs:/app/logs
+    env_file:
+      - .env
