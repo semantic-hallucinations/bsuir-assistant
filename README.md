@@ -10,7 +10,7 @@ To run the bsuir-assistant you need:
 
 * Registered __telegram__ bot and __token__ for it
 
-* An [OpenRouter](https://openrouter.ai/) _token_ for your model
+* An [OpenRouter](https://openrouter.ai/) __token__ for your model
 
 * A set up Docker compose, working example of which is provided in this repository
 
@@ -35,3 +35,10 @@ docker compose up
 * At least 8GB free storage space
 
 * Natural intelligence
+
+## Sources
+This repository uses or refers to following services:
+
+* [Answer Pipeline](https://github.com/semantic-hallucinations/answer_pipeline) by [Aliteya](https://github.com/Aliteya)
+
+* [Telegram Bot](https://github.com/semantic-hallucinations/bsuir-helper-bot) by [Hohich](https://github.com/Hohichh)
