@@ -1,5 +1,5 @@
 # bsuir-assistant
-A repository for launching up the BBSUIR RAG Assistant
+A repository for launching up the BSUIR RAG Assistant
 
 ## Setting up
 
@@ -30,6 +30,8 @@ docker compose up
 
 * [OpenRouter](https://openrouter.ai/) account
 
-* At least 7GB free storage space
+* Telegram bot
+
+* At least 8GB free storage space
 
 * Natural intelligence
