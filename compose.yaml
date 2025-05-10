@@ -11,13 +11,13 @@ services:
       - QDRANT_ALLOW_CORS=true
     restart: unless-stopped
   answer-pipeline:
-    image: ghcr.io/semantic-hallucinations/answer_pipeline:latest
+    image: ghcr.io/semantic-hallucinations/answer_pipeline:8f7cd9e325242e500c05f38247f367e0a591a215
     ports:
       - "8080:8000"
     env_file:
       - .env
   tele-bot:
-    image: ghcr.io/semantic-hallucinations/bsuir-helper-bot:latest
+    image: ghcr.io/semantic-hallucinations/bsuir-helper-bot:d3eebd5b45edf42f6f13497e32742ce2fef050a1
     volumes:
       - ./logs:/app/logs
     env_file:
