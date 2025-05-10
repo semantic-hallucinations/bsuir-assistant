@@ -22,7 +22,7 @@ You need Docker to run the assistant. After setting up is complete, you can run 
 docker compose up
 ``` 
 
-## System Requirements
+## Requirements
 
 * Fast internet connection
 
