@@ -6,7 +6,7 @@ A repository for launching up the BBSUIR RAG Assistant
 To run the bsuir-assistant you need:
 * The __qdrant_data__ directory which was created as Volume for Docker
 
-* A __.env__ file which contains the environment variables for the serivces. Refer to __.env.example __
+* A __.env__ file which contains the environment variables for the serivces. Refer to __.env.example__
 
 * Registered __telegram__ bot and __token__ for it
 
