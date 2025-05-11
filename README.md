@@ -1,4 +1,4 @@
-# bsuir-assistant
+# BSUIR RAG Assistant
 A repository for launching up the BSUIR RAG Assistant
 
 ## Setting up
@@ -36,9 +36,15 @@ docker compose up
 
 * Natural intelligence
 
+## About Qdrant Data Folder
+
+If you want to know how to build the proper data folder for this assistant, please refer to [Bsuir Assistant Data Module](https://github.com/semantic-hallucinations/bsuir-helper-data)
+
 ## Sources
 This repository uses or refers to following services:
 
 * [Answer Pipeline](https://github.com/semantic-hallucinations/answer_pipeline) by [Aliteya](https://github.com/Aliteya)
 
 * [Telegram Bot](https://github.com/semantic-hallucinations/bsuir-helper-bot) by [Hohich](https://github.com/Hohichh)
+
+* [Bsuir Assistant Data Module](https://github.com/semantic-hallucinations/bsuir-helper-data) by [Semantic Hallucinations](https://github.com/semantic-hallucinations)
